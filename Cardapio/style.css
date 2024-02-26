@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    overflow-x: hidden;
+    padding: 20px;
+    background-image: url("../Images/fundo-browser.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrap-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    
+}
+.card{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+h1,h2 {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.336);
+    color: white;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+@media (width >= 1024px){
+     .wrap-card{
+        flex-direction: row;
+        gap: 2vw;
+     }
+}
